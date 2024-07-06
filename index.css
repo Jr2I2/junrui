@@ -47,7 +47,8 @@ body, h1, h2, p, ul, li {
     align-items: center;
     background-color: #fff;
     padding: 20px;
-    margin-top: 120px;
+    margin-top: 20px;
+    border-radius: 10px;
   }
 
   .text1{
@@ -56,9 +57,9 @@ body, h1, h2, p, ul, li {
   }
 
   .sqr{
-    width: 500px;
+    max-width: 500px;
     height: 300px;
-    border-radius: 30px;
+    border-radius: 10px;
     padding: 20px;
 
   }
@@ -77,7 +78,7 @@ body, h1, h2, p, ul, li {
     align-items: center;
   }
   .content2 {
-    max-width: 1200px;
+    max-width: 1900px;
     margin: 0 auto;
     display: flex;
     flex-direction: row;
@@ -88,6 +89,12 @@ body, h1, h2, p, ul, li {
   .text {
     flex: 1;
     padding: 20px;
+  }
+
+
+
+  .vcert {
+    border: 1px solid #ccc;
   }
  
   .header-image {
@@ -193,7 +200,7 @@ body, h1, h2, p, ul, li {
     .award-cards {
       display: flex;
       justify-content: center;
-      align-items: stretch;
+      align-items: center;
       flex-wrap: wrap;
       margin-top: 30px;
     }
@@ -201,7 +208,7 @@ body, h1, h2, p, ul, li {
     .award-cards1 {
         display: flex;
         justify-content: center;
-        align-items: stretch;
+        align-items: center;
         flex-wrap: wrap;
         margin-top: 30px;
       }
@@ -215,6 +222,7 @@ body, h1, h2, p, ul, li {
       text-align: center;
       flex: 1;
       max-width: 300px;
+      max-height: 300px;
     }
     
     .award-card img {
